@@ -393,7 +393,7 @@ span.post-name a,span.post-read-more a:hover {
     margin: 0px auto;
     margin-bottom: -50px; margin-top:50px;
 }
-.footer a {color:inherit;}
+.footer a {color:#81BEF7;}
 .footer a:hover {color:#FFFFFF; text-decoration:none;}
 .footer-widget {margin-bottom: 3rem;    margin-top: 3rem;font-size:15px;}
 .footer-widget h5.title {font-size:18px; text-transform:uppercase;letter-spacing:1px;color:#fff;margin-bottom:1.5rem;}
