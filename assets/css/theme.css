@@ -365,7 +365,7 @@ span.post-name a,span.post-read-more a:hover {
 }
 .footer {
 	border-top:1px solid rgba(0,0,0,.05)!important;
-	color:#58D3F7;
+	color:#FFFFFF;
 	margin-top:50px;
     margin-bottom:0px;
     background-color: #171e27;
@@ -427,7 +427,7 @@ blockquote {
 .featured-image {
     display: block;
     margin-bottom: 2rem;
-    box-shadow: 0 15px 15px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
 }
 .article-post img, .article-post iframe {
     box-shadow:0 6px 10px 0 rgba(0,0,0,0.1);
