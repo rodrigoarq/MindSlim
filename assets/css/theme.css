@@ -866,15 +866,13 @@ widget:400px;
 height:600px;
 align="center";
 }
-#cx2 {
-position:absolute; top: 300px; left: 150px;	
-widget:100px;
-height:100px;
+#cx2 {	
+widget:50px;
+height:50px;
 }
-#cx3 {
-position:absolute; top: 300px; left: 450px;	
-widget:100px;
-height:100px;
+#cx3 {	
+widget:50px;
+height:50px;
 }
 
 
