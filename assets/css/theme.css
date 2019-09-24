@@ -867,12 +867,12 @@ height:600px;
 align="center";
 }
 #cx2 {
-position:relative; top: 200px; left: 200px;	
+position:absolute; top: 200px; left: 200px;	
 widget:200px;
 height:200px;
 }
 #cx3 {
-position:relative; top: 200px; left: 400px;	
+position:absolute; top: 200px; left: 400px;	
 widget:200px;
 height:200px;
 }
