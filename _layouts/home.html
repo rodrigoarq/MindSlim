@@ -4,10 +4,23 @@
 {% include head.html %}
 {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 <body class="{{ layout }}">
-
   {% include header.html %}
 
+
   <div class="site-content">
+
+    <div class="jumbotron" style="background-image: url(/assets/images/slim1.png); background-size: 100%; color: white;">
+      <div class="container" style="height: 420px;">
+        <div class="row">
+          <div class="col-md-6">
+          </div>
+          <div class="col-md-6">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="container">
       {{ content }}
     </div>
