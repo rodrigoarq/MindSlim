@@ -4,6 +4,65 @@
 ---
 // Import partials from `sass_dir` (defaults to `_sass`)
 
-@import
-	"syntax"
-;
+@import "syntax";
+
+.space-top {
+	margin-top: 30px;
+}
+
+
+#cx1 {
+	widget: 400px;
+	height: 600px;
+	align: center;
+}
+
+#cx2 {
+	widget: 400px;
+	height: 600px;
+	align: center;
+}
+
+#cx3 {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 500px;
+	left: 15px;
+	cursor: hand;
+}
+
+#cx4 {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	top: 500px;
+	left: 625px;
+	cursor: hand;
+}
+
+#foto02 {
+	width: 500px;
+	height: 200px;
+}
+
+#foto03 {
+	width: 200px;
+	height: 200px;
+}
+
+#tx1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#tx2 {
+	font-size: 15px;
+	font-weight: bold;
+	color: #848484;
+}
+
+#tx3 {
+	font-size: 15px;
+	color: #848484;
+}
