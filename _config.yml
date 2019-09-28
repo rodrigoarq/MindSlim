@@ -3,7 +3,7 @@ name: "MindSlim"
 title: "Treinamento para Coachs de emagrecimento"
 description: "MindSlim | Coachs de Emagrecimento"
 meta_description: "Treinamento para Coachs de emagrecimento"
-logo: 'assets/images/slim2.png'
+logo: 'assets/images/logo_modified.png'
 paginate: 12
 baseurl: '/'
 email: 'arq.rodrigomatos@gmail.com'
