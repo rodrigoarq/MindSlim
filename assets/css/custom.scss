@@ -7,10 +7,11 @@
 @import "syntax";
 
 .main-banner {
-	background-size: center;
-	background-attachment: fixed; 
+	<center>
+	background-size: 100%; 
 	color: #FFFFFF;
 	background-repeat: no-repeat;
+	
 }
 
 .space-top {
