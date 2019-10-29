@@ -6,10 +6,15 @@
 
 @import "syntax";
 
+p {
+	margin-bottom: .5rem;
+}
+
 .main-banner {
 	background-size: 100%; 
 	color: #FFFFFF;
-	background-repeat: no-repeat;	
+	background-repeat: no-repeat;
+	margin-bottom: 3.5rem;
 }
 
 .space-top {
@@ -24,7 +29,6 @@
 	font-size: 22px;
 	font-weight: bold;
 }
-
 
 #cx1 {
 	widget: 400px;
@@ -93,6 +97,7 @@
 	 line-height: 2em;
 	
 }
+
 .txbaner1 {
 	font-size: 100%;
 	font-family: 'Lato',Helvetica,Arial,Lucida,sans-serif;
@@ -106,4 +111,67 @@
 	text-shadow: 0 1px 3px rgba(0,0,0,.3);
 }
 
+.pull-center {
+    text-align: center;
+}
 
+.site-content {
+	margin-top: 9rem;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.btn-outline-success {
+	color: #5cb85c;
+}
+
+.home-card {
+	line-height: 1.6rem;
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h2 {
+		font-size: 1rem;
+	}
+
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 15px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.title {
+		padding-bottom: .5rem;
+		border-bottom: 2px solid #ada1a1;
+		margin-bottom: .8rem;
+	}
+
+	.subtitle {
+		min-height: .5rem;
+	}
+
+	.content {
+		margin-top: 1rem;
+		margin-bottom: 1.5rem;
+		
+		i {
+			margin-right: 6px;
+		}
+	}
+
+	.btn {
+		font-size: 1.3rem;
+	}
+	  
+}

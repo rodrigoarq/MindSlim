@@ -2,31 +2,19 @@
 <html lang="en">
   {% include head.html %}
 
-{% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
-<body class="{{ layout }}">
+  {% capture layout %}{% if page.layout %}layout-{{ page.layout }}{% endif %}{% endcapture %}
 
-{% include header.html %}
+  <body class="{{ layout }}">
 
-<div class="site-content">
+    {% include header.html %}
 
-    <div class="container">
-
-    <div class="mainheading" style="display:none;">
-        <h1 class="sitetitle">{{ site.name }}</h1>
-        <p class="lead">
-             {{ site.description }}
-        </p>
+    <div class="site-content">
+      <div class="container">
+        {{ content }}
+      </div><!-- /.container -->
     </div>
 
-    <div class="main-content">
-      {{ content }}
-    </div>
-
-    </div><!-- /.container -->
-  </div>
-
-
-{% include footer.html %}
-</body>
-
+    {% include footer.html %}
+    
+  </body>
 </html>

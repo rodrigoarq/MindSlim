@@ -1,30 +1,20 @@
-<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation">
+<header class="navbar navbar-toggleable-md navbar-light bg-white fixed-top mediumnavigation nav-down" style="top: 0px;">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
+   <span class="navbar-toggler-icon"></span>
   </button>
+  
   <div class="container">
-
     <a class="navbar-brand" href="/">
       <img src="{{ site.logo | relative_url }}" alt="{{ site.name }}">
     </a>
 
     <div class="collapse navbar-collapse" id="navbarsWow">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/dez-ferramentas" |relative_url }}">10 Ferramentas</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/formacao-coach-emagrecimento" |relative_url }}">Formação</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="{{ "/blog" |relative_url }}">Blog</a>
-        </li>
-
-        <li class="nav-item">
-          <a target="_blank" class="nav-link" href="{{ "/contato" |relative_url }}">Contato</a>
-        </li>
+        {% for item in site.data.navbar %}
+          <li class="nav-item">
+            <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+          </li>
+        {% endfor %}
       </ul>
     </div>
   </div>
