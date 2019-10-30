@@ -7,11 +7,31 @@
 @import "syntax";
 
 p {
-	margin-bottom: .5rem;
+	margin: .5rem 0;
+}
+
+h1, h2, h3 {
+	margin: 1.2rem auto;
+}
+
+h1 {
+	font-size: 2rem;
+}
+
+h2 {
+	font-size: 1.6px;
+}
+
+h3 {
+	font-size: 1.2rem;
+}
+
+h4 {
+	font-size: 1rem;
 }
 
 .main-banner {
-	background-size: 100%; 
+	background-size: 100%;
 	color: #FFFFFF;
 	background-repeat: no-repeat;
 	margin-bottom: 3.5rem;
@@ -95,7 +115,7 @@ p {
 	 cursor:hand;
 	 font-size: 20px;
 	 line-height: 2em;
-	
+
 }
 
 .txbaner1 {
@@ -164,7 +184,7 @@ p {
 	.content {
 		margin-top: 1rem;
 		margin-bottom: 1.5rem;
-		
+
 		i {
 			margin-right: 6px;
 		}
@@ -173,5 +193,89 @@ p {
 	.btn {
 		font-size: 1.3rem;
 	}
-	  
+
+}
+
+section {
+	margin-bottom: 4rem;
+}
+
+.img-icon {
+	width: 7rem;
+}
+
+.hero {
+	text-align: center;
+
+	img {
+		margin: 1.5rem auto;
+	}
+
+	.btn {
+		border-color: #dd4a00;
+		background-color: #dd4a00;
+		font-size: 1.3rem;
+	}
+}
+
+.course-content {
+	img {
+		width: 7rem;
+		float: left;
+	}
+
+	.row {
+		display: block;
+		padding-left: 9.5rem;
+	}
+}
+
+.features, .statistics {
+	text-align: center;
+
+	.itens {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		.item-description {
+			font-weight: 700;
+			color: #333;
+		}
+	}
+}
+
+.testimonials {
+	text-align: center;
+
+	img {
+		width: 11rem;
+		border-radius: 35px;
+		margin-right: 2rem;
+	}
+
+	.row .col-sm-12 {
+		display: flex;
+		flex-direction: row;
+		text-align: left;
+		margin-top: 1.5rem;
+	}
+}
+
+.warranty {
+	color: #fff;
+	background-color: #00356b;
+	text-align: left;
+
+	img {
+		width: 11rem;
+		margin-right: 2rem;
+	}
+
+	.row .col-sm-12 {
+		display: flex;
+		flex-direction: row;
+		margin-top: 1.5rem;
+	}
+
 }
